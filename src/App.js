@@ -1,25 +1,33 @@
-import logo from './logo.svg';
 import './App.css';
+import './index.css'
+import './App.css'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <>
+            <header>
+                <div id="navbar-logo">
+                    <a href="index.js">EQRIES</a>
+                </div>
+                <nav>
+                    <ul>
+                        {/*todo create pages and link to href*/}
+                        <li><a href="index.js">Registreer / Login</a></li>
+                        <li><a href="index.js">Services</a></li>
+                        <li><a href="index.js">Contactgegevens</a></li>
+                        <li><a href="index.js">Geschiedenis</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section></section>
+                <section></section>
+            </main>
+            <footer>
+                <p>EQRIES Racing service/garage</p>
+            </footer>
+        </>
+    );
 }
 
 export default App;
